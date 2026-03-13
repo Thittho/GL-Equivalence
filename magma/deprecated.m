@@ -1,6 +1,9 @@
 
 /*
+functions that might be useful one day
+*/
 
+// compute all the terms/coefficients that appear in the l-fold transvectant of one polynomial 
 function CompatibleExp(n, l)
     fact := Factorial(n);
     permMats := [<M, Determinant(M)> where M := PermutationMatrix(Rationals(), s) : s in Sym(n)];
@@ -21,8 +24,7 @@ function CompatibleExp(n, l)
 end function;
 
 
-
-
+// try to compute all matrices that transform l_f[1] into l_g[1], using the extra data of covariants l_f[2..#l_f] that must be mapped to l_g[2..#l_g] 
 function NaiveEquivalence2(l_f, l_g, l_deg)
     R := Universe(l_f);
     K := BaseRing(R);

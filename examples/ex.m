@@ -1,3 +1,11 @@
+/*
+ *  Linear equivalence between homogeneous polynomials 
+ *
+ *  Thomas Bouchet
+ *
+ *  See LICENSE.txt for license details.
+*/
+
 // Verbose flag "Equivalence" can be set to 0 (lowest), 1 or 2 (highest)
 SetVerbose("Equivalence", 1);
 

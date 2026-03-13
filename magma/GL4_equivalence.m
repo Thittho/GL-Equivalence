@@ -1,3 +1,11 @@
+/*
+ *  Linear equivalence between homogeneous polynomials 
+ *
+ *  Thomas Bouchet
+ *
+ *  See LICENSE.txt for license details.
+*/
+
 import "tools_iso.m":
     FindPreImage, XGCDUnique, NormalizeMatrix; 
 

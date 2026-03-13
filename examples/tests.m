@@ -1,3 +1,11 @@
+/*
+ *  Linear equivalence between homogeneous polynomials 
+ *
+ *  Thomas Bouchet
+ *
+ *  See LICENSE.txt for license details.
+*/
+
 SetVerbose("Equivalence", 1);
 
 // In 2 variables 

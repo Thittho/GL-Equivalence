@@ -1,3 +1,11 @@
+/*
+ *  Linear equivalence between homogeneous polynomials 
+ *
+ *  Thomas Bouchet
+ *
+ *  See LICENSE.txt for license details.
+*/
+
 import "GL3_equivalence.m" : QuarticCov;
 
 intrinsic IsGLnEquivalentNaive(f::RngMPolElt, g::RngMPolElt : geometric := false) -> .

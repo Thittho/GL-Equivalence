@@ -1,3 +1,11 @@
+/*
+ *  Linear equivalence between homogeneous polynomials 
+ *
+ *  Thomas Bouchet
+ *
+ *  See LICENSE.txt for license details.
+*/
+
 declare verbose Equivalence, 2;
 
 // Return the Hessian of the homogeneous polynomial f 
